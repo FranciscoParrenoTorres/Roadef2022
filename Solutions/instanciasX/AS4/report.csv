@@ -1,0 +1,2 @@
+scope;anomaly;data;
+Output truck;the weight on middle axle of the trailer is incorrect;truck id = P223706601;weight on middle axle of the trailer read in output truck file = 23,32;recalculated  weight on middle axle of the trailer = 22,93;total stacks weight = 17731,96;distance between center of gravity of stacks and end of the trailer = 11305,50;distance between center of gravity of stacks and rear axle of the trailer = -2005,50;weight on the harness of the trailer = -2412,37

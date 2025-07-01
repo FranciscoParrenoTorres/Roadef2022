@@ -1,0 +1,3731 @@
+Ha pasado los parametros
+
+Ha leido el problema
+
+Ha leido y ha calculado componentes conexas
+
+Hay 2 subproblemas
+Componente:0 TA 822
+Componente:1 TA 70
+Hay 2 subproblemas
+Componente:0 TA 822
+Componente:1 TA 70
+./instanciasX/PA2/ NComponentes 2 Total  camiones: 19 Total items : 123 Total dias : 19 Max camiones : 16 Max items : 109 Max dias : 16 Cuantil Camiones :16 Cuantil items:109 Cuantil dias : 16 Cuantil Camiones :16 Cuantil items:109 Cuantil dias : 16 Mediana Camiones :9.5 Mediana items:61.5 Mediana dias : 9.5 Media camiones : 9 Media items : 61 Media dias : 9 TE 52 ME 3 MEdia E 2 TI 3701 MI 81 MEdia I 30	5	1	0.2
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ITERACION 0 CT 0 CI 0 CT 0
+COMPONENTE:0 Iteracion:0
+Supliers 
+0002717500
+0040504301
+Supliers dock
+0002717500||172PF2
+0040504301||172PF2
+Plant 
+172PF2
+Tiempo Modelo91 822 892
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_TimeLimit                               182
+CPXPARAM_MIP_Tolerances_MIPGap                   0.01
+Tried aggregator 1 time.
+MIP Presolve modified 84 coefficients.
+Reduced MIP has 345 rows, 1177 columns, and 3583 nonzeros.
+Reduced MIP has 84 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.15 ticks)
+Found incumbent of value 279635.000000 after 0.01 sec. (2.92 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.56 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 20 rows and 185 columns.
+Reduced MIP has 325 rows, 992 columns, and 3027 nonzeros.
+Reduced MIP has 83 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.88 ticks)
+Probing time = 0.00 sec. (0.46 ticks)
+Clique table members: 178.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (1.44 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       279635.0000     1500.0000            99.46%
+*     0+    0                        52800.0000     1500.0000            97.16%
+      0     0    15280.5322    16    52800.0000    15280.5322      217   71.06%
+*     0+    0                        29400.0000    15280.5322            48.03%
+      0     0    18648.4281    64    29400.0000     Cuts: 110      474   36.57%
+      0     0    23569.4076    21    29400.0000     Cuts: 181      584   19.83%
+      0     0    24206.3950    14    29400.0000      Cuts: 62      700   17.67%
+      0     0    24471.3991     7    29400.0000      Cuts: 45      715   16.76%
+*     0+    0                        25800.0000    24471.3991             5.15%
+      0     0    24471.6557     7    25800.0000      Cuts: 20      728    5.15%
+      0     0    24471.7218     7    25800.0000      Cuts: 14      737    5.15%
+*     0+    0                        24559.2324    24471.7218             0.36%
+
+GUB cover cuts applied:  3
+Implied bound cuts applied:  197
+Flow cuts applied:  27
+Mixed integer rounding cuts applied:  35
+Zero-half cuts applied:  1
+Lift and project cuts applied:  6
+Gomory fractional cuts applied:  14
+
+Root node processing (before b&c):
+  Real time             =    0.08 sec. (45.84 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.08 sec. (45.84 ticks)
+Modelo:
+Terminado Modelo:
+Terminado Modelo2:
+Asignaciones Aproximadas822Ventana temporal x: 0 Ventana temporal z: 2 Total dias 16 NO Packing 0
+Iteracion: 0 Iter_Real 0
+Veces 1 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202309021700Fecha Fin 202308311700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               91
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+Tried aggregator 1 time.
+MIP Presolve modified 12 coefficients.
+Reduced MIP has 237 rows, 681 columns, and 2059 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.55 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 19 rows and 108 columns.
+Reduced MIP has 218 rows, 573 columns, and 1735 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.99 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.61 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0    14291.3126     1                  14291.3126      126         
+*     0+    0                        15255.4369    14291.3126             6.32%
+      0     0        cutoff          15255.4369                    129    0.00%
+Elapsed time = 0.01 sec. (4.16 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.19 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.19 ticks)
+1 Optimal
+Best Value 15255.4 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 39
+Quedan Ahora 0 P244630901 Vol Heur 43.534 Vol Total 43.524 Vol Cargado 44.388
+Fijado:
+0
+No baja el volumen 0
+Veces 2 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202308311700Fecha Fin 202308291700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               90
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 15828.4029.
+Tried aggregator 1 time.
+MIP Presolve eliminated 14 rows and 39 columns.
+MIP Presolve modified 22 coefficients.
+Reduced MIP has 223 rows, 642 columns, and 1941 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.54 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 19 rows and 108 columns.
+Reduced MIP has 204 rows, 534 columns, and 1617 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.94 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.51 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        15828.4029     1500.0000            90.52%
+      0     0    15323.7814     1    15828.4029    15323.7814       91    3.19%
+      0     0        cutoff          15828.4029                     92    0.00%
+Elapsed time = 0.01 sec. (3.83 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.85 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.85 ticks)
+1 Optimal
+Best Value 15828.4 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 20
+Quedan Ahora 0 P243630901 Vol Heur 65.854 Vol Total 22.32 Vol Cargado 22.752
+Fijado:
+1
+No baja el volumen 1
+Veces 3 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202308291700Fecha Fin 202308251700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               89
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 16180.0381.
+Tried aggregator 1 time.
+MIP Presolve eliminated 28 rows and 78 columns.
+MIP Presolve modified 20 coefficients.
+Reduced MIP has 209 rows, 603 columns, and 1823 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.53 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 18 rows and 102 columns.
+Reduced MIP has 191 rows, 501 columns, and 1517 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.88 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.54 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        16180.0381     3000.0000            81.46%
+      0     0    15828.4029     1    16180.0381    15828.4029      100    2.17%
+      0     0        cutoff          16180.0381                    101    0.00%
+Elapsed time = 0.01 sec. (3.70 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.72 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.72 ticks)
+1 Optimal
+Best Value 16180 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 39
+Quedan Ahora 0 P241630901 Vol Heur 79.246 Vol Total 43.524 Vol Cargado 44.388
+Fijado:
+2
+No baja el volumen 2
+Veces 4 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202308251700Fecha Fin 202308241700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               88
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 17184.2815.
+Tried aggregator 1 time.
+MIP Presolve eliminated 42 rows and 117 columns.
+MIP Presolve modified 18 coefficients.
+Reduced MIP has 195 rows, 564 columns, and 1705 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.52 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 17 rows and 96 columns.
+Reduced MIP has 178 rows, 468 columns, and 1417 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.82 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.48 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        17184.2815     4500.0000            73.81%
+      0     0    16180.0381     1    17184.2815    16180.0381       85    5.84%
+      0     0        cutoff          17184.2815                     86    0.00%
+Elapsed time = 0.01 sec. (3.50 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.52 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.52 ticks)
+1 Optimal
+Best Value 17184.3 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 52
+Quedan Ahora 0 P237630901 Vol Heur 78.13 Vol Total 58.032 Vol Cargado 59.166
+Fijado:
+3
+No baja el volumen 3
+Veces 5 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202308241700Fecha Fin 202307281700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               87
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 18137.0083.
+Tried aggregator 1 time.
+MIP Presolve eliminated 56 rows and 156 columns.
+MIP Presolve modified 24 coefficients.
+Reduced MIP has 181 rows, 525 columns, and 1587 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.51 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 16 rows and 90 columns.
+Reduced MIP has 165 rows, 435 columns, and 1317 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.76 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.44 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        18137.0083     6000.0000            66.92%
+      0     0    17424.0519     1    18137.0083    17424.0519       80    3.93%
+      0     0        cutoff          18137.0083                     81    0.00%
+Elapsed time = 0.01 sec. (3.32 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.34 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.34 ticks)
+1 Optimal
+Best Value 18137 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P236630901 Vol Heur 80.362 Vol Total 24.552 Vol Cargado 25.038
+Fijado:
+4
+No baja el volumen 4
+Veces 6 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307281700Fecha Fin 202307271700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 19143.1668.
+Tried aggregator 1 time.
+MIP Presolve eliminated 70 rows and 195 columns.
+MIP Presolve modified 30 coefficients.
+Reduced MIP has 167 rows, 486 columns, and 1469 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.49 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 15 rows and 84 columns.
+Reduced MIP has 152 rows, 402 columns, and 1217 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.71 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.46 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        19143.1668     7500.0000            60.82%
+      0     0    18393.1668     1    19143.1668    18393.1668       88    3.92%
+      0     0        cutoff          19143.1668                     90    0.00%
+Elapsed time = 0.01 sec. (3.21 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.22 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.22 ticks)
+1 Optimal
+Best Value 19143.2 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P209630901 Vol Heur 80.362 Vol Total 24.552 Vol Cargado 25.038
+Fijado:
+5
+No baja el volumen 5
+Veces 7 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307271700Fecha Fin 202307211700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               85
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 20746.2366.
+Tried aggregator 1 time.
+MIP Presolve eliminated 84 rows and 234 columns.
+MIP Presolve modified 28 coefficients.
+Reduced MIP has 153 rows, 447 columns, and 1351 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.48 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 14 rows and 78 columns.
+Reduced MIP has 139 rows, 369 columns, and 1117 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.65 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.39 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        20746.2366     9000.0000            56.62%
+      0     0    19143.1668     2    20746.2366    19143.1668       77    7.73%
+*     0+    0                        19742.3482    19143.1668             3.04%
+      0     0    19169.1592     2    19742.3482      Cuts: 11       87    2.90%
+      0     0        cutoff          19742.3482                    100    0.00%
+Elapsed time = 0.01 sec. (4.62 ticks, tree = 0.01 MB, solutions = 2)
+
+Implied bound cuts applied:  1
+Flow cuts applied:  4
+Mixed integer rounding cuts applied:  5
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.65 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.65 ticks)
+1 Optimal
+Best Value 19742.3 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P208630901 Vol Heur 79.246 Vol Total 24.552 Vol Cargado 25.038
+Fijado:
+6
+No baja el volumen 6
+Veces 8 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307211700Fecha Fin 202307201700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               84
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 2 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 20524.5799.
+Tried aggregator 1 time.
+MIP Presolve eliminated 98 rows and 273 columns.
+MIP Presolve modified 20 coefficients.
+Reduced MIP has 139 rows, 408 columns, and 1233 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.47 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 13 rows and 72 columns.
+Reduced MIP has 126 rows, 336 columns, and 1017 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.59 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.31 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        20524.5799    10500.0000            48.84%
+      0     0    19143.1668     2    20524.5799    19143.1668       57    6.73%
+      0     0    20220.5275     2    20524.5799       Cuts: 4       65    1.48%
+      0     0        cutoff          20524.5799                     66    0.00%
+Elapsed time = 0.01 sec. (3.69 ticks, tree = 0.01 MB, solutions = 1)
+
+Flow cuts applied:  1
+Mixed integer rounding cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.72 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.72 ticks)
+1 Optimal
+Best Value 20524.6 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 60
+Quedan Ahora 1 P202630901 Vol Heur 79.246 Vol Total 66.96 Vol Cargado 67.14
+Fijado:
+7
+No baja el volumen 7
+Veces 9 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307201700Fecha Fin 202307181700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               83
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+Retaining values of one MIP start for possible repair.
+Tried aggregator 1 time.
+MIP Presolve eliminated 105 rows and 301 columns.
+MIP Presolve modified 36 coefficients.
+Reduced MIP has 132 rows, 380 columns, and 1148 nonzeros.
+Reduced MIP has 8 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.47 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 12 rows and 66 columns.
+Reduced MIP has 120 rows, 314 columns, and 950 nonzeros.
+Reduced MIP has 8 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.56 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 7.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.39 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0    20997.0890     1                  20997.0890       73         
+*     0+    0                        21530.9873    20997.0890             2.48%
+      0     0    21273.2950     3    21530.9873       Cuts: 7       84    1.20%
+      0     0        cutoff          21530.9873                     85    0.00%
+Elapsed time = 0.01 sec. (3.13 ticks, tree = 0.01 MB, solutions = 1)
+
+Implied bound cuts applied:  6
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.16 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.16 ticks)
+1 Optimal
+Best Value 21531 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901Lleno
+Z_8 202307201700 P201630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 34
+Quedan Ahora 0 P201630901 Vol Heur 79.246 Vol Total 37.944 Vol Cargado 38.7
+Fijado:
+8
+No baja el volumen 8
+Veces 10 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307181700Fecha Fin 202307141700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               82
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 22072.5911.
+Tried aggregator 1 time.
+MIP Presolve eliminated 127 rows and 357 columns.
+MIP Presolve modified 32 coefficients.
+Reduced MIP has 110 rows, 324 columns, and 979 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.45 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 11 rows and 60 columns.
+Reduced MIP has 99 rows, 264 columns, and 799 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.47 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.24 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        22072.5911    14420.0000            34.67%
+      0     0    21530.9873     1    22072.5911    21530.9873       52    2.45%
+      0     0        cutoff          22072.5911                     54    0.00%
+Elapsed time = 0.01 sec. (2.38 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (2.41 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (2.41 ticks)
+1 Optimal
+Best Value 22072.6 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901Lleno
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 38
+Quedan Ahora 0 P199630901 Vol Heur 81.478 Vol Total 42.408 Vol Cargado 43.272
+Fijado:
+9
+No baja el volumen 9
+Veces 11 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307141700Fecha Fin 202307131700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               81
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 23054.7495.
+Tried aggregator 1 time.
+MIP Presolve eliminated 142 rows and 402 columns.
+MIP Presolve modified 36 coefficients.
+Reduced MIP has 95 rows, 279 columns, and 843 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.44 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 10 rows and 54 columns.
+Reduced MIP has 85 rows, 225 columns, and 681 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.41 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.22 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        23054.7495    15920.0000            30.95%
+      0     0    22080.9265     1    23054.7495    22080.9265       53    4.22%
+      0     0        cutoff          23054.7495                     61    0.00%
+Elapsed time = 0.01 sec. (2.40 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (2.42 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (2.42 ticks)
+1 Optimal
+Best Value 23054.7 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901Lleno
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 42
+Quedan Ahora 0 P195630901 Vol Heur 77.014 Vol Total 46.872 Vol Cargado 47.79
+Fijado:
+10
+No baja el volumen 10
+Veces 12 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307131700Fecha Fin 202307111700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               80
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 23262.4768.
+Tried aggregator 1 time.
+MIP Presolve eliminated 158 rows and 453 columns.
+MIP Presolve modified 39 coefficients.
+Reduced MIP has 79 rows, 228 columns, and 689 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.42 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 8 rows and 42 columns.
+Reduced MIP has 71 rows, 186 columns, and 563 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.33 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.18 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        23262.4768    17420.0000            25.12%
+      0     0    23054.7495     1    23262.4768    23054.7495       45    0.89%
+      0     0        cutoff          23262.4768                     46    0.00%
+Elapsed time = 0.00 sec. (1.99 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (2.01 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (2.01 ticks)
+1 Optimal
+Best Value 23262.5 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901Lleno
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901
+Z_11 202307131700 P194630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P194630901 Vol Heur 79.246 Vol Total 24.552 Vol Cargado 25.092
+Fijado:
+11
+No baja el volumen 11
+Veces 13 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307111700Fecha Fin 202307071700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               79
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 23730.3070.
+Tried aggregator 1 time.
+MIP Presolve eliminated 174 rows and 504 columns.
+MIP Presolve modified 37 coefficients.
+Reduced MIP has 63 rows, 177 columns, and 535 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.41 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 7 rows and 36 columns.
+Reduced MIP has 56 rows, 141 columns, and 427 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.26 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.14 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        23730.3070    18920.0000            20.27%
+      0     0    23262.4768     1    23730.3070    23262.4768       38    1.97%
+      0     0        cutoff          23730.3070                     41    0.00%
+Elapsed time = 0.01 sec. (1.79 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (1.81 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (1.81 ticks)
+1 Optimal
+Best Value 23730.3 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901Lleno
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901
+Z_11 202307131700 P194630901
+Z_12 202307111700 P192630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 51
+Quedan Ahora 0 P192630901 Vol Heur 81.478 Vol Total 56.916 Vol Cargado 57.996
+Fijado:
+12
+No baja el volumen 12
+Veces 14 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307071700Fecha Fin 202307061700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               78
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 24615.1305.
+Tried aggregator 1 time.
+MIP Presolve eliminated 191 rows and 561 columns.
+MIP Presolve modified 39 coefficients.
+Reduced MIP has 46 rows, 120 columns, and 363 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.39 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 6 rows and 30 columns.
+Reduced MIP has 40 rows, 90 columns, and 273 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.19 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.09 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        24615.1305    20420.0000            17.04%
+      0     0    23730.3070     1    24615.1305    23730.3070       29    3.59%
+      0     0        cutoff          24615.1305                     30    0.00%
+Elapsed time = 0.01 sec. (1.52 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (1.53 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (1.53 ticks)
+1 Optimal
+Best Value 24615.1 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901Lleno
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901
+Z_11 202307131700 P194630901
+Z_12 202307111700 P192630901
+Z_13 202307071700 P188630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 40
+Quedan Ahora 0 P188630901 Vol Heur 78.13 Vol Total 44.64 Vol Cargado 45.612
+Fijado:
+13
+No baja el volumen 13
+Veces 15 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307061700Fecha Fin 202307031700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               77
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 24920.0000.
+Tried aggregator 1 time.
+MIP Presolve eliminated 207 rows and 612 columns.
+MIP Presolve modified 39 coefficients.
+Reduced MIP has 30 rows, 69 columns, and 209 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.38 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 5 rows and 19 columns.
+Reduced MIP has 25 rows, 50 columns, and 151 nonzeros.
+Reduced MIP has 5 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.11 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Clique table members: 4.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        24920.0000    23420.0000             6.02%
+      0     0        cutoff          24920.0000                      7    0.00%
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (1.18 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (1.18 ticks)
+1 Optimal
+Best Value 24920 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901Lleno
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901
+Z_11 202307131700 P194630901
+Z_12 202307111700 P192630901
+Z_13 202307071700 P188630901
+Z_14 202307061700 P187630901 Packing 
+Z_15 202307041700 P185630901 Packing  Terminado Modelo Temporal
+Tama ventana2
+
+Entra en packing 
+Quedan 73
+Quedan Ahora 49 P187630901 Vol Heur 73.666 Vol Total 26.784 Vol Cargado 27.324
+Quedan Ahora 0 P185630901 Vol Heur 73.666 Vol Total 54.684 Vol Cargado 55.764
+Fijado:
+14
+Es el ultimo
+15
+No quedan
+No baja el volumen 14
+Coste inventario Antes 184 
+Camion 1P244630901
+Camion 1P243630901
+Camion 1P241630901
+Camion 1P237630901
+Camion 1P236630901
+Camion 1P209630901
+Camion 1P208630901
+Camion 1P202630901
+Ha mejorado
+Camion 1P202630901Extras0Camion 2P201630901Extras20
+Mejora
+Camion 1P202630901Extras0Camion 2P201630901Extras20
+Camion 1P201630901
+Camion 1P199630901
+Camion 1P195630901
+Camion 1P194630901
+Camion 1P192630901
+Camion 1P188630901
+Camion 1P187630901
+Camion 1P185630901
+Coste inventario Después 154 
+Aqui7 0
+CT 0 CI  154 CT 24000
+Aqui8 0
+Aqui8 Compo 0 0
+Comprueba 
+24770 ; 24770 ; 0
+COMPONENTE:0 Iteracion:0Mejor Iter0
+GAP 0.0120419 ObjBound 24471.7Coste 24770 154 24000 Op 0 CT 1 CI 5 BS_T 24770 BS_I 154 BS_T 24000
+
+Tiempo 3600 Componente 0
+COMPONENTE:1 Iteracion:0
+Supliers 
+0002717500
+0040504301
+Supliers dock
+0002717500||172PF2
+0040504301||172PF2
+Plant 
+172PF2
+Tiempo Modelo7 70 892
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_TimeLimit                               14
+CPXPARAM_MIP_Tolerances_MIPGap                   0.01
+Tried aggregator 1 time.
+MIP Presolve modified 30 coefficients.
+Reduced MIP has 56 rows, 155 columns, and 474 nonzeros.
+Reduced MIP has 15 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.16 ticks)
+Found incumbent of value 31250.000000 after 0.00 sec. (0.36 ticks)
+Probing time = 0.00 sec. (0.08 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 3 rows and 28 columns.
+Reduced MIP has 53 rows, 127 columns, and 390 nonzeros.
+Reduced MIP has 15 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.25 ticks)
+Probing time = 0.00 sec. (0.07 ticks)
+Clique table members: 34.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.27 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        31250.0000        0.0000           100.00%
+*     0+    0                        21000.0000        0.0000           100.00%
+*     0+    0                        15600.0000        0.0000           100.00%
+*     0+    0                        13800.0000        0.0000           100.00%
+*     0+    0                         3000.0000        0.0000           100.00%
+      0     0     2059.3220     1     3000.0000     2059.3220       53   31.36%
+      0     0        cutoff           3000.0000                     55    0.00%
+Elapsed time = 0.01 sec. (1.36 ticks, tree = 0.01 MB, solutions = 5)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (1.37 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (1.37 ticks)
+Modelo:
+Terminado Modelo:
+Terminado Modelo2:
+Asignaciones Aproximadas70Ventana temporal x: 0 Ventana temporal z: 2 Total dias 3 NO Packing 0
+Iteracion: 0 Iter_Real 0
+Veces 1 Ventana temporal x: 1Ventana temporal z: 2 Total dias 3 NO Packing 0
+Fecha Inicio 202306241700Fecha Fin 202306221700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               7
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+Tried aggregator 1 time.
+MIP Presolve modified 12 coefficients.
+Reduced MIP has 35 rows, 85 columns, and 257 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.08 ticks)
+Found incumbent of value 12530.982631 after 0.00 sec. (0.20 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 3 rows and 16 columns.
+Reduced MIP has 32 rows, 69 columns, and 209 nonzeros.
+Reduced MIP has 6 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.13 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.08 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        12530.9826        0.0000           100.00%
+*     0+    0                         3000.0000        0.0000           100.00%
+      0     0     2059.3220     1     3000.0000     2059.3220       28   31.36%
+      0     0        cutoff           3000.0000                     35    0.00%
+Elapsed time = 0.00 sec. (0.62 ticks, tree = 0.01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.63 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.63 ticks)
+1 Optimal
+Best Value 3000 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202306231700 P174630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 37
+Quedan Ahora 0 P174630901 Vol Heur 41.302 Vol Total 41.292 Vol Cargado 42.102002
+Fijado:
+0
+No baja el volumen 0
+Veces 2 Ventana temporal x: 1Ventana temporal z: 2 Total dias 3 NO Packing 0
+Fecha Inicio 202306221700Fecha Fin 202306191700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               6
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 2 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 3000.0000.
+Tried aggregator 1 time.
+MIP Presolve eliminated 15 rows and 45 columns.
+MIP Presolve modified 20 coefficients.
+Reduced MIP has 20 rows, 40 columns, and 121 nonzeros.
+Reduced MIP has 5 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.07 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 2 rows and 10 columns.
+Reduced MIP has 18 rows, 30 columns, and 91 nonzeros.
+Reduced MIP has 5 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.07 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Clique table members: 4.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         3000.0000     1500.0000            50.00%
+      0     0        cutoff           3000.0000                      7    0.00%
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.26 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.26 ticks)
+1 Optimal
+Best Value 3000 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202306231700 P174630901
+Z_1 202306221700 P173630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P173630901 Vol Heur 65.854 Vol Total 24.552 Vol Cargado 25.038001
+Fijado:
+1
+No baja el volumen 1
+Veces 3 Ventana temporal x: 1Ventana temporal z: 2 Total dias 3 NO Packing 0
+Fecha Inicio 202306201700Fecha Fin 202306191700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               5
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 3000.0000.
+Tried aggregator 1 time.
+MIP Presolve eliminated 35 rows and 85 columns.
+MIP Presolve modified 12 coefficients.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.04 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.06 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.06 ticks)
+1 Optimal
+Best Value 3000 Cota 0
+Val Min 0.02Modelo:
+
+Z_0 202306231700 P174630901
+Z_1 202306221700 P173630901 Terminado Modelo Temporal
+Tama ventana0
+No baja el volumen 2
+Coste inventario Antes 0 
+Camion 1P174630901
+Camion 1P173630901
+Coste inventario Después 0 
+Aqui7 0
+CT 0 CI  0 CT 3000
+Aqui8 0
+Aqui8 Compo 1 0
+Comprueba 
+3000 ; 3000 ; 0
+COMPONENTE:1 Iteracion:0Mejor Iter0
+GAP 0 ObjBound 3000Coste 3000 0 3000 Op 0 CT 1 CI 5 BS_T 27770 BS_I 154 BS_T 27000
+
+Tiempo 3600 Componente 1
+
+Tiempo 0.634Iter 0
+
+escribe la solucion
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ITERACION 1 CT 27000 CI 154 CT 27770
+COMPONENTE:0 Iteracion:1
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_TimeLimit                               534
+CPXPARAM_MIP_Tolerances_MIPGap                   0.01
+Tried aggregator 1 time.
+MIP Presolve modified 29 coefficients.
+Reduced MIP has 345 rows, 1492 columns, and 4528 nonzeros.
+Reduced MIP has 84 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.34 ticks)
+Found incumbent of value 325290.000000 after 0.01 sec. (3.58 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.68 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 20 rows and 235 columns.
+Reduced MIP has 325 rows, 1257 columns, and 3822 nonzeros.
+Reduced MIP has 83 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.25 ticks)
+Probing time = 0.00 sec. (0.56 ticks)
+Clique table members: 178.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (1.83 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       307995.0000     1500.0000            99.51%
+*     0+    0                        45600.0000     1500.0000            96.71%
+*     0+    0                        36600.0000     1500.0000            95.90%
+      0     0    14602.3405    16    36600.0000    14602.3405      306   60.10%
+*     0+    0                        29400.0000    14602.3405            50.33%
+      0     0    18239.5978    59    29400.0000     Cuts: 105      525   37.96%
+      0     0    23273.4393    23    29400.0000     Cuts: 181      689   20.84%
+      0     0    24116.3899    13    29400.0000      Cuts: 67      776   17.97%
+      0     0    24205.4172    16    29400.0000      Cuts: 34      836   17.67%
+      0     0    24228.8218     5    29400.0000      Cuts: 60      879   17.59%
+*     0+    0                        24559.2324    24228.8218             1.35%
+      0     0    24295.9539     7    24559.2324      Cuts: 24      899    1.07%
+      0     0    24375.8138    13    24559.2324      Cuts: 28      922    0.75%
+
+GUB cover cuts applied:  1
+Implied bound cuts applied:  211
+Flow cuts applied:  30
+Mixed integer rounding cuts applied:  42
+Lift and project cuts applied:  7
+Gomory fractional cuts applied:  8
+
+Root node processing (before b&c):
+  Real time             =    0.08 sec. (55.44 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.08 sec. (55.44 ticks)
+Modelo:
+Terminado Modelo:
+Terminado Modelo2:
+Asignaciones Aproximadas822Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Iteracion: 1 Iter_Real 1
+Veces 1 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202309021700Fecha Fin 202308311700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               267
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+Tried aggregator 1 time.
+MIP Presolve modified 15 coefficients.
+Reduced MIP has 237 rows, 870 columns, and 2626 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.71 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 19 rows and 138 columns.
+Reduced MIP has 218 rows, 732 columns, and 2212 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.22 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.72 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0    14291.3126     1                  14291.3126      121         
+*     0+    0                        18855.4369    14291.3126            24.21%
+*     0+    0                        15255.4369    14291.3126             6.32%
+      0     0        cutoff          15255.4369                    124    0.00%
+Elapsed time = 0.01 sec. (5.86 ticks, tree = 0.01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (5.90 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (5.90 ticks)
+1 Optimal
+Best Value 15255.437 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 39
+Quedan Ahora 0 P244630901 Vol Heur 43.534 Vol Total 43.524 Vol Cargado 44.388002
+Fijado:
+0
+No baja el volumen 0
+Veces 2 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202308311700Fecha Fin 202308291700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               266
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 2 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 15828.4029.
+Tried aggregator 1 time.
+MIP Presolve eliminated 14 rows and 57 columns.
+MIP Presolve modified 25 coefficients.
+Reduced MIP has 223 rows, 813 columns, and 2454 nonzeros.
+Reduced MIP has 12 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.70 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 18 rows and 132 columns.
+Reduced MIP has 205 rows, 681 columns, and 2058 nonzeros.
+Reduced MIP has 12 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.14 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 20.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.60 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        15828.4029     1500.0000            90.52%
+      0     0    15323.7814     1    15828.4029    15323.7814      112    3.19%
+      0     0        cutoff          15828.4029                    113    0.00%
+Elapsed time = 0.01 sec. (4.72 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.75 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.75 ticks)
+1 Optimal
+Best Value 15828.403 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 20
+Quedan Ahora 0 P243630901 Vol Heur 65.854 Vol Total 22.32 Vol Cargado 22.752001
+Fijado:
+1
+No baja el volumen 1
+Veces 3 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202308291700Fecha Fin 202308251700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               265
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 16180.0381.
+Tried aggregator 1 time.
+MIP Presolve eliminated 28 rows and 96 columns.
+MIP Presolve modified 17 coefficients.
+Reduced MIP has 209 rows, 774 columns, and 2336 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.68 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 17 rows and 123 columns.
+Reduced MIP has 192 rows, 651 columns, and 1967 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.08 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.60 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        16180.0381     3000.0000            81.46%
+      0     0    15828.4029     1    16180.0381    15828.4029      102    2.17%
+      0     0        cutoff          16180.0381                    103    0.00%
+Elapsed time = 0.01 sec. (4.52 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.54 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.54 ticks)
+1 Optimal
+Best Value 16180.038 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 39
+Quedan Ahora 0 P241630901 Vol Heur 80.362 Vol Total 43.524 Vol Cargado 44.388001
+Fijado:
+2
+No baja el volumen 2
+Veces 4 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202308251700Fecha Fin 202308241700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               264
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 17184.2815.
+Tried aggregator 1 time.
+MIP Presolve eliminated 42 rows and 153 columns.
+MIP Presolve modified 17 coefficients.
+Reduced MIP has 195 rows, 717 columns, and 2164 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.67 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 16 rows and 114 columns.
+Reduced MIP has 179 rows, 603 columns, and 1822 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.00 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.62 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        17184.2815     4500.0000            73.81%
+      0     0    16180.0381     1    17184.2815    16180.0381      112    5.84%
+      0     0        cutoff          17184.2815                    113    0.00%
+Elapsed time = 0.01 sec. (4.34 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.36 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.36 ticks)
+1 Optimal
+Best Value 17184.282 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 52
+Quedan Ahora 0 P237630901 Vol Heur 78.13 Vol Total 58.032 Vol Cargado 59.166002
+Fijado:
+3
+No baja el volumen 3
+Veces 5 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202308241700Fecha Fin 202307281700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               263
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 18137.0083.
+Tried aggregator 1 time.
+MIP Presolve eliminated 56 rows and 210 columns.
+MIP Presolve modified 23 coefficients.
+Reduced MIP has 181 rows, 660 columns, and 1992 nonzeros.
+Reduced MIP has 9 binaries, 15 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.66 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 15 rows and 105 columns.
+Reduced MIP has 166 rows, 555 columns, and 1677 nonzeros.
+Reduced MIP has 9 binaries, 15 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.93 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 13.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.52 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        18137.0083     6000.0000            66.92%
+      0     0    17424.0519     1    18137.0083    17424.0519       94    3.93%
+      0     0        cutoff          18137.0083                     97    0.00%
+Elapsed time = 0.01 sec. (4.09 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.12 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.12 ticks)
+1 Optimal
+Best Value 18137.008 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P236630901 Vol Heur 81.478 Vol Total 24.552 Vol Cargado 25.038001
+Fijado:
+4
+No baja el volumen 4
+Veces 6 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307281700Fecha Fin 202307271700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               262
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 19143.1668.
+Tried aggregator 1 time.
+MIP Presolve eliminated 70 rows and 267 columns.
+MIP Presolve modified 26 coefficients.
+Reduced MIP has 167 rows, 603 columns, and 1820 nonzeros.
+Reduced MIP has 9 binaries, 15 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.64 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 14 rows and 99 columns.
+Reduced MIP has 153 rows, 504 columns, and 1523 nonzeros.
+Reduced MIP has 9 binaries, 15 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.85 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 13.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.59 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        19143.1668     7500.0000            60.82%
+      0     0    18393.1668     1    19143.1668    18393.1668      119    3.92%
+      0     0        cutoff          19143.1668                    127    0.00%
+Elapsed time = 0.01 sec. (4.00 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.02 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.02 ticks)
+1 Optimal
+Best Value 19143.167 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P209630901 Vol Heur 80.362 Vol Total 24.552 Vol Cargado 25.038001
+Fijado:
+5
+No baja el volumen 5
+Veces 7 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307271700Fecha Fin 202307211700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               261
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 22546.2366.
+Tried aggregator 1 time.
+MIP Presolve eliminated 84 rows and 306 columns.
+MIP Presolve modified 20 coefficients.
+Reduced MIP has 153 rows, 564 columns, and 1702 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.63 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 13 rows and 93 columns.
+Reduced MIP has 140 rows, 471 columns, and 1423 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.79 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.45 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        22546.2366     9000.0000            60.08%
+      0     0    19143.1668     2    22546.2366    19143.1668       84   15.09%
+*     0+    0                        19742.3482    19143.1668             3.04%
+      0     0    19543.3384     2    19742.3482      Cuts: 11       95    1.01%
+      0     0        cutoff          19742.3482                     96    0.00%
+Elapsed time = 0.02 sec. (4.65 ticks, tree = 0.01 MB, solutions = 2)
+
+Implied bound cuts applied:  2
+Flow cuts applied:  1
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (4.69 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (4.69 ticks)
+1 Optimal
+Best Value 19742.348 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P208630901 Vol Heur 81.478 Vol Total 24.552 Vol Cargado 25.038001
+Fijado:
+6
+No baja el volumen 6
+Veces 8 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307211700Fecha Fin 202307201700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               260
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 2 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 20525.3476.
+Tried aggregator 1 time.
+MIP Presolve eliminated 98 rows and 345 columns.
+MIP Presolve modified 24 coefficients.
+Reduced MIP has 139 rows, 525 columns, and 1584 nonzeros.
+Reduced MIP has 9 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.68 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 12 rows and 84 columns.
+Reduced MIP has 127 rows, 441 columns, and 1332 nonzeros.
+Reduced MIP has 9 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.74 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 13.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.33 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        20525.3476    10500.0000            48.84%
+      0     0    19143.1668     4    20525.3476    19143.1668       65    6.73%
+      0     0    20172.4681     9    20525.3476       Cuts: 4       73    1.72%
+
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.84 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.84 ticks)
+1 OptimalTol
+Best Value 20525.348 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 59
+Quedan Ahora 0 P202630901 Vol Heur 79.246 Vol Total 65.844 Vol Cargado 67.194002
+Fijado:
+7
+No baja el volumen 7
+Veces 9 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307201700Fecha Fin 202307181700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               259
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 21170.9873.
+Tried aggregator 1 time.
+MIP Presolve eliminated 114 rows and 393 columns.
+MIP Presolve added 8 rows and 0 columns.
+MIP Presolve modified 39 coefficients.
+Reduced MIP has 131 rows, 477 columns, and 1435 nonzeros.
+Reduced MIP has 8 binaries, 28 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.67 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 11 rows and 78 columns.
+Reduced MIP has 120 rows, 399 columns, and 1201 nonzeros.
+Reduced MIP has 8 binaries, 28 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.67 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 7.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.36 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        21170.9873    12000.0000            43.32%
+      0     0    20525.5880     1    21170.9873    20525.5880       67    3.05%
+      0     0        cutoff          21170.9873                     68    0.00%
+Elapsed time = 0.01 sec. (3.34 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.37 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.37 ticks)
+1 Optimal
+Best Value 21170.987 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 34
+Quedan Ahora 0 P201630901 Vol Heur 79.246 Vol Total 37.944 Vol Cargado 38.646002
+Fijado:
+8
+No baja el volumen 8
+Veces 10 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307181700Fecha Fin 202307141700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               258
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 21712.5911.
+Tried aggregator 1 time.
+MIP Presolve eliminated 127 rows and 450 columns.
+MIP Presolve modified 27 coefficients.
+Reduced MIP has 110 rows, 420 columns, and 1267 nonzeros.
+Reduced MIP has 9 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.60 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 10 rows and 69 columns.
+Reduced MIP has 100 rows, 351 columns, and 1060 nonzeros.
+Reduced MIP has 9 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.59 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 13.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.37 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        21712.5911    14060.0000            35.24%
+      0     0    21170.9873     1    21712.5911    21170.9873       83    2.49%
+      0     0        cutoff          21712.5911                     85    0.00%
+Elapsed time = 0.01 sec. (3.11 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.14 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.14 ticks)
+1 Optimal
+Best Value 21712.591 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 38
+Quedan Ahora 0 P199630901 Vol Heur 81.478 Vol Total 42.408 Vol Cargado 43.272002
+Fijado:
+9
+No baja el volumen 9
+Veces 11 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307141700Fecha Fin 202307131700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               257
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 22694.7495.
+Tried aggregator 1 time.
+MIP Presolve eliminated 142 rows and 516 columns.
+MIP Presolve modified 33 coefficients.
+Reduced MIP has 95 rows, 354 columns, and 1068 nonzeros.
+Reduced MIP has 12 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.59 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 8 rows and 51 columns.
+Reduced MIP has 87 rows, 303 columns, and 915 nonzeros.
+Reduced MIP has 12 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.51 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 20.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.30 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        22694.7495    15560.0000            31.44%
+      0     0    21720.9265     1    22694.7495    21720.9265       67    4.29%
+      0     0        cutoff          22694.7495                     73    0.00%
+Elapsed time = 0.01 sec. (3.09 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.12 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.12 ticks)
+1 Optimal
+Best Value 22694.75 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 42
+Quedan Ahora 0 P195630901 Vol Heur 77.014 Vol Total 46.872 Vol Cargado 47.790002
+Fijado:
+10
+No baja el volumen 10
+Veces 12 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307131700Fecha Fin 202307111700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               256
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 22902.4768.
+Tried aggregator 1 time.
+MIP Presolve eliminated 158 rows and 591 columns.
+MIP Presolve modified 30 coefficients.
+Reduced MIP has 79 rows, 279 columns, and 842 nonzeros.
+Reduced MIP has 15 binaries, 15 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.57 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 7 rows and 45 columns.
+Reduced MIP has 72 rows, 234 columns, and 707 nonzeros.
+Reduced MIP has 15 binaries, 15 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.40 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 27.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.30 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        22902.4768    17060.0000            25.51%
+      0     0    22694.7495     1    22902.4768    22694.7495       55    0.91%
+      0     0        cutoff          22902.4768                     56    0.00%
+Elapsed time = 0.01 sec. (2.62 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (2.65 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (2.65 ticks)
+1 Optimal
+Best Value 22902.477 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901
+Z_11 202307131700 P194630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P194630901 Vol Heur 79.246 Vol Total 24.552 Vol Cargado 25.092001
+Fijado:
+11
+No baja el volumen 11
+Veces 13 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307111700Fecha Fin 202307071700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               255
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 23370.3070.
+Tried aggregator 1 time.
+MIP Presolve eliminated 174 rows and 642 columns.
+MIP Presolve modified 27 coefficients.
+Reduced MIP has 63 rows, 228 columns, and 688 nonzeros.
+Reduced MIP has 9 binaries, 24 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.55 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 6 rows and 36 columns.
+Reduced MIP has 57 rows, 192 columns, and 580 nonzeros.
+Reduced MIP has 9 binaries, 24 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.33 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 13.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.24 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        23370.3070    18560.0000            20.58%
+      0     0    22902.4768     1    23370.3070    22902.4768       43    2.00%
+      0     0        cutoff          23370.3070                     46    0.00%
+Elapsed time = 0.01 sec. (2.37 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (2.39 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (2.39 ticks)
+1 Optimal
+Best Value 23370.307 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901
+Z_11 202307131700 P194630901
+Z_12 202307111700 P192630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 51
+Quedan Ahora 0 P192630901 Vol Heur 81.478 Vol Total 56.916 Vol Cargado 57.996002
+Fijado:
+12
+No baja el volumen 12
+Veces 14 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307071700Fecha Fin 202307061700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               254
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 24255.1305.
+Tried aggregator 1 time.
+MIP Presolve eliminated 191 rows and 726 columns.
+MIP Presolve modified 30 coefficients.
+Reduced MIP has 46 rows, 144 columns, and 435 nonzeros.
+Reduced MIP has 9 binaries, 21 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.53 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 4 rows and 18 columns.
+Reduced MIP has 42 rows, 126 columns, and 381 nonzeros.
+Reduced MIP has 9 binaries, 21 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.22 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 13.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.15 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        24255.1305    20060.0000            17.30%
+      0     0    23370.3070     1    24255.1305    23370.3070       30    3.65%
+      0     0        cutoff          24255.1305                     31    0.00%
+Elapsed time = 0.00 sec. (1.98 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (2.01 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (2.01 ticks)
+1 Optimal
+Best Value 24255.131 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901
+Z_11 202307131700 P194630901
+Z_12 202307111700 P192630901
+Z_13 202307071700 P188630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 40
+Quedan Ahora 0 P188630901 Vol Heur 78.13 Vol Total 44.64 Vol Cargado 45.558002
+Fijado:
+13
+No baja el volumen 13
+Veces 15 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307061700Fecha Fin 202307031700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               253
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 24560.0000.
+Tried aggregator 1 time.
+MIP Presolve eliminated 207 rows and 801 columns.
+MIP Presolve modified 72 coefficients.
+Reduced MIP has 30 rows, 69 columns, and 209 nonzeros.
+Reduced MIP has 6 binaries, 63 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.56 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 1 rows and 1 columns.
+Reduced MIP has 29 rows, 68 columns, and 205 nonzeros.
+Reduced MIP has 5 binaries, 63 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.12 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Clique table members: 4.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.06 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        24560.0000    23060.0000             6.11%
+      0     0        cutoff          24560.0000                      6    0.00%
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (1.58 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (1.58 ticks)
+1 Optimal
+Best Value 24560 Cota 0
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901
+Z_11 202307131700 P194630901
+Z_12 202307111700 P192630901
+Z_13 202307071700 P188630901
+Z_14 202307061700 P187630901 Packing 
+Z_15 202307041700 P185630901 Packing  Terminado Modelo Temporal
+Tama ventana2
+
+Entra en packing 
+Quedan 73
+Quedan Ahora 49 P187630901 Vol Heur 75.898 Vol Total 26.784 Vol Cargado 27.324001
+Quedan Ahora 0 P185630901 Vol Heur 75.898 Vol Total 54.684 Vol Cargado 55.764002
+Fijado:
+14
+Es el ultimo
+15
+No quedan
+No baja el volumen 14
+Coste inventario Antes 112 
+Camion 1P244630901
+Camion 1P243630901
+Camion 1P241630901
+Camion 1P237630901
+Camion 1P236630901
+Camion 1P209630901
+Camion 1P208630901
+Camion 1P202630901
+Ha mejorado
+Camion 1P202630901Extras0Camion 2P201630901Extras20
+Camion 1P202630901Extras0Camion 2P201630901Extras20
+Camion 1P201630901
+Camion 1P199630901
+Camion 1P195630901
+Camion 1P194630901
+Camion 1P192630901
+Camion 1P188630901
+Camion 1P187630901
+Camion 1P185630901
+Coste inventario Después 112 
+Aqui7 1
+CT 0 CI  112 CT 24000
+Aqui8 1
+Aqui8 Compo 0 24770
+Comprueba 
+24560 ; 24560 ; 0
+COMPONENTE:0 Iteracion:1Mejor Iter1
+GAP 0.0053308944 ObjBound 24429.073Coste 24560 112 24000 Op 0 CT 1 CI 5 BS_T 27560 BS_I 112 BS_T 27000
+
+Tiempo 3599 Componente 0
+COMPONENTE:1 Iteracion:1
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_TimeLimit                               66
+CPXPARAM_MIP_Tolerances_MIPGap                   0.01
+Tried aggregator 1 time.
+MIP Presolve modified 30 coefficients.
+Reduced MIP has 56 rows, 176 columns, and 537 nonzeros.
+Reduced MIP has 15 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.18 ticks)
+Found incumbent of value 32550.000000 after 0.00 sec. (0.40 ticks)
+Probing time = 0.00 sec. (0.08 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 3 rows and 31 columns.
+Reduced MIP has 53 rows, 145 columns, and 444 nonzeros.
+Reduced MIP has 15 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.27 ticks)
+Probing time = 0.00 sec. (0.07 ticks)
+Clique table members: 34.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.28 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        30900.0000        0.0000           100.00%
+*     0+    0                        17400.0000        0.0000           100.00%
+*     0+    0                        10200.0000        0.0000           100.00%
+*     0+    0                         4800.0000        0.0000           100.00%
+      0     0     2059.3220     1     4800.0000     2059.3220       53   57.10%
+*     0+    0                         3000.0000     2059.3220            31.36%
+      0     0        cutoff           3000.0000                     55    0.00%
+Elapsed time = 0.01 sec. (3.29 ticks, tree = 0.01 MB, solutions = 6)
+
+Cover cuts applied:  1
+Implied bound cuts applied:  5
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.30 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.30 ticks)
+Modelo:
+Terminado Modelo:
+Terminado Modelo2:
+Asignaciones Aproximadas70Ventana temporal x: 1Ventana temporal z: 2 Total dias 3 NO Packing 0
+Iteracion: 1 Iter_Real 1
+Veces 1 Ventana temporal x: 1Ventana temporal z: 2 Total dias 3 NO Packing 0
+Fecha Inicio 202306241700Fecha Fin 202306221700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               33
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+Tried aggregator 1 time.
+MIP Presolve modified 15 coefficients.
+Reduced MIP has 35 rows, 99 columns, and 299 nonzeros.
+Reduced MIP has 6 binaries, 21 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.11 ticks)
+Found incumbent of value 26684.453419 after 0.00 sec. (0.18 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 2 rows and 10 columns.
+Reduced MIP has 33 rows, 89 columns, and 269 nonzeros.
+Reduced MIP has 6 binaries, 21 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.16 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.11 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        26684.4534        0.0000           100.00%
+*     0+    0                         6600.0000        0.0000           100.00%
+      0     0     2059.3220     1     6600.0000     2059.3220       25   68.80%
+*     0+    0                         4800.0000     2059.3220            57.10%
+*     0+    0                         3000.0000     2059.3220            31.36%
+      0     0     2301.4286     3     3000.0000       Cuts: 6       39   23.29%
+*     0+    0                         3000.0000                           0.00%
+      0     0        cutoff           3000.0000                     40    0.00%
+Elapsed time = 0.01 sec. (0.98 ticks, tree = 0.01 MB, solutions = 4)
+
+Implied bound cuts applied:  5
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (0.99 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (0.99 ticks)
+1 Optimal
+Best Value 3000 Cota 3000
+Val Min 0.999Modelo:
+
+Z_0 202306231700 P174630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 37
+Quedan Ahora 0 P174630901 Vol Heur 41.302 Vol Total 41.292 Vol Cargado 42.102002
+Fijado:
+0
+No baja el volumen 0
+Veces 2 Ventana temporal x: 1Ventana temporal z: 2 Total dias 3 NO Packing 0
+Fecha Inicio 202306221700Fecha Fin 202306191700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               32
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 4 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 3000.0000.
+Tried aggregator 1 time.
+MIP Presolve eliminated 15 rows and 59 columns.
+MIP Presolve modified 29 coefficients.
+Reduced MIP has 20 rows, 40 columns, and 121 nonzeros.
+Reduced MIP has 5 binaries, 35 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.09 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 20 rows, 40 columns, and 121 nonzeros.
+Reduced MIP has 5 binaries, 35 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.07 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Clique table members: 4.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.06 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         3000.0000     1500.0000            50.00%
+      0     0        cutoff           3000.0000                     17    0.00%
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.33 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.33 ticks)
+1 Optimal
+Best Value 3000 Cota 3000
+Val Min 0.999Modelo:
+
+Z_0 202306231700 P174630901
+Z_1 202306221700 P173630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P173630901 Vol Heur 65.854 Vol Total 24.552 Vol Cargado 25.038001
+Fijado:
+1
+No baja el volumen 1
+Veces 3 Ventana temporal x: 1Ventana temporal z: 2 Total dias 3 NO Packing 0
+Fecha Inicio 202306201700Fecha Fin 202306191700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               31
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 3000.0000.
+Tried aggregator 1 time.
+MIP Presolve eliminated 35 rows and 99 columns.
+MIP Presolve modified 12 coefficients.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.05 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.07 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.07 ticks)
+1 Optimal
+Best Value 3000 Cota 3000
+Val Min 0.999Modelo:
+
+Z_0 202306231700 P174630901
+Z_1 202306221700 P173630901 Terminado Modelo Temporal
+Tama ventana0
+No baja el volumen 2
+Coste inventario Antes 0 
+Camion 1P174630901
+Camion 1P173630901
+Coste inventario Después 0 
+Aqui7 1
+CT 0 CI  0 CT 3000
+Aqui8 1
+Aqui8 Compo 1 3000
+COMPONENTE:1 Iteracion:1Mejor Iter0
+GAP 0 ObjBound 3000Coste 3000 0 3000 Op 1 CT 1 CI 5 BS_T 27560 BS_I 112 BS_T 27000
+
+Tiempo 3599 Componente 1
+
+Tiempo 1.137Iter 1
+
+escribe la solucion
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ITERACION 2 CT 27000 CI 112 CT 27560
+COMPONENTE:0 Iteracion:2
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_TimeLimit                               534
+CPXPARAM_MIP_Tolerances_MIPGap                   0.01
+Tried aggregator 1 time.
+MIP Presolve modified 24 coefficients.
+Reduced MIP has 345 rows, 1522 columns, and 4618 nonzeros.
+Reduced MIP has 84 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.36 ticks)
+Found incumbent of value 307060.000000 after 0.00 sec. (3.64 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.70 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 20 rows and 240 columns.
+Reduced MIP has 325 rows, 1282 columns, and 3897 nonzeros.
+Reduced MIP has 83 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.29 ticks)
+Probing time = 0.00 sec. (0.57 ticks)
+Clique table members: 178.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (1.99 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       307060.0000     1500.0000            99.51%
+*     0+    0                        52800.0000     1500.0000            97.16%
+*     0+    0                        43800.0000     1500.0000            96.58%
+      0     0    14596.1820    15    43800.0000    14596.1820      324   66.68%
+*     0+    0                        27600.0000    14596.1820            47.12%
+      0     0    17938.3168    56    27600.0000     Cuts: 100      545   35.01%
+      0     0    23343.7458    31    27600.0000     Cuts: 181      751   15.42%
+      0     0    24097.9222    18    27600.0000      Cuts: 95      867   12.69%
+      0     0    24257.3029     7    27600.0000      Cuts: 44      893   12.11%
+*     0+    0                        24559.2324    24257.3029             1.23%
+      0     0    24294.8603     7    24559.2324      Cuts: 26      950    1.08%
+      0     0    24363.5640     9    24559.2324      Cuts: 37      983    0.80%
+      0     0        cutoff          24559.2324    24559.2324      983    0.00%
+Elapsed time = 0.07 sec. (52.07 ticks, tree = 0.01 MB, solutions = 5)
+
+GUB cover cuts applied:  2
+Implied bound cuts applied:  198
+Flow cuts applied:  33
+Mixed integer rounding cuts applied:  19
+Zero-half cuts applied:  1
+Lift and project cuts applied:  6
+Gomory fractional cuts applied:  4
+
+Root node processing (before b&c):
+  Real time             =    0.07 sec. (52.19 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.07 sec. (52.19 ticks)
+Modelo:
+Terminado Modelo:
+Terminado Modelo2:
+Asignaciones Aproximadas822Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Iteracion: 2 Iter_Real 2
+Veces 1 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202309021700Fecha Fin 202308311700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               267
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+Tried aggregator 1 time.
+MIP Presolve modified 15 coefficients.
+Reduced MIP has 237 rows, 888 columns, and 2680 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.72 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 19 rows and 141 columns.
+Reduced MIP has 218 rows, 747 columns, and 2257 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.23 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.73 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0    14291.3126     1                  14291.3126      132         
+*     0+    0                        18855.4369    14291.3126            24.21%
+*     0+    0                        15255.4369    14291.3126             6.32%
+*     0+    0                        15255.4369                           0.00%
+      0     0        cutoff          15255.4369                    135    0.00%
+Elapsed time = 0.01 sec. (6.00 ticks, tree = 0.01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (6.04 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (6.04 ticks)
+1 Optimal
+Best Value 15255.437 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 39
+Quedan Ahora 0 P244630901 Vol Heur 43.534 Vol Total 43.524 Vol Cargado 44.388002
+Fijado:
+0
+No baja el volumen 0
+Veces 2 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202308311700Fecha Fin 202308291700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               266
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 2 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 15828.4029.
+Tried aggregator 1 time.
+MIP Presolve eliminated 14 rows and 57 columns.
+MIP Presolve modified 25 coefficients.
+Reduced MIP has 223 rows, 831 columns, and 2508 nonzeros.
+Reduced MIP has 12 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.71 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 18 rows and 135 columns.
+Reduced MIP has 205 rows, 696 columns, and 2103 nonzeros.
+Reduced MIP has 12 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.16 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 20.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.63 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        15828.4029     1500.0000            90.52%
+      0     0    15323.7814     1    15828.4029    15323.7814      123    3.19%
+      0     0        cutoff          15828.4029                    124    0.00%
+Elapsed time = 0.01 sec. (4.82 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.85 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.85 ticks)
+1 Optimal
+Best Value 15828.403 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 20
+Quedan Ahora 0 P243630901 Vol Heur 65.854 Vol Total 22.32 Vol Cargado 22.752001
+Fijado:
+1
+No baja el volumen 1
+Veces 3 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202308291700Fecha Fin 202308251700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               265
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 16180.0381.
+Tried aggregator 1 time.
+MIP Presolve eliminated 28 rows and 96 columns.
+MIP Presolve modified 17 coefficients.
+Reduced MIP has 209 rows, 792 columns, and 2390 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.70 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 17 rows and 126 columns.
+Reduced MIP has 192 rows, 666 columns, and 2012 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.10 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.62 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        16180.0381     3000.0000            81.46%
+      0     0    15828.4029     1    16180.0381    15828.4029      109    2.17%
+      0     0        cutoff          16180.0381                    110    0.00%
+Elapsed time = 0.01 sec. (4.61 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.63 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.63 ticks)
+1 Optimal
+Best Value 16180.038 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 39
+Quedan Ahora 0 P241630901 Vol Heur 80.362 Vol Total 43.524 Vol Cargado 44.388001
+Fijado:
+2
+No baja el volumen 2
+Veces 4 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202308251700Fecha Fin 202308241700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               264
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 17184.2815.
+Tried aggregator 1 time.
+MIP Presolve eliminated 42 rows and 153 columns.
+MIP Presolve modified 20 coefficients.
+Reduced MIP has 195 rows, 735 columns, and 2218 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.68 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 16 rows and 114 columns.
+Reduced MIP has 179 rows, 621 columns, and 1876 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.03 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.58 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        17184.2815     4500.0000            73.81%
+      0     0    16180.0381     1    17184.2815    16180.0381      100    5.84%
+      0     0        cutoff          17184.2815                    101    0.00%
+Elapsed time = 0.01 sec. (4.37 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.40 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.40 ticks)
+1 Optimal
+Best Value 17184.282 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 52
+Quedan Ahora 0 P237630901 Vol Heur 78.13 Vol Total 58.032 Vol Cargado 59.166002
+Fijado:
+3
+No baja el volumen 3
+Veces 5 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202308241700Fecha Fin 202307281700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               263
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 18137.0083.
+Tried aggregator 1 time.
+MIP Presolve eliminated 56 rows and 228 columns.
+MIP Presolve modified 23 coefficients.
+Reduced MIP has 181 rows, 660 columns, and 1992 nonzeros.
+Reduced MIP has 9 binaries, 15 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.67 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 15 rows and 105 columns.
+Reduced MIP has 166 rows, 555 columns, and 1677 nonzeros.
+Reduced MIP has 9 binaries, 15 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.93 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 13.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.51 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        18137.0083     6000.0000            66.92%
+      0     0    17424.0519     1    18137.0083    17424.0519       91    3.93%
+      0     0        cutoff          18137.0083                     94    0.00%
+Elapsed time = 0.01 sec. (4.11 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.14 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.14 ticks)
+1 Optimal
+Best Value 18137.008 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P236630901 Vol Heur 83.71 Vol Total 24.552 Vol Cargado 25.038001
+Fijado:
+4
+No baja el volumen 4
+Veces 6 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307281700Fecha Fin 202307271700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               262
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 19143.1668.
+Tried aggregator 1 time.
+MIP Presolve eliminated 70 rows and 285 columns.
+MIP Presolve modified 23 coefficients.
+Reduced MIP has 167 rows, 603 columns, and 1820 nonzeros.
+Reduced MIP has 9 binaries, 15 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.65 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 14 rows and 99 columns.
+Reduced MIP has 153 rows, 504 columns, and 1523 nonzeros.
+Reduced MIP has 9 binaries, 15 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.85 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 13.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.59 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        19143.1668     7500.0000            60.82%
+      0     0    18393.1668     1    19143.1668    18393.1668      119    3.92%
+      0     0        cutoff          19143.1668                    127    0.00%
+Elapsed time = 0.01 sec. (4.02 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (4.04 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.04 ticks)
+1 Optimal
+Best Value 19143.167 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P209630901 Vol Heur 80.362 Vol Total 24.552 Vol Cargado 25.038001
+Fijado:
+5
+No baja el volumen 5
+Veces 7 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307271700Fecha Fin 202307211700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               261
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 20746.2366.
+Tried aggregator 1 time.
+MIP Presolve eliminated 84 rows and 324 columns.
+MIP Presolve modified 17 coefficients.
+Reduced MIP has 153 rows, 564 columns, and 1702 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.64 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 13 rows and 93 columns.
+Reduced MIP has 140 rows, 471 columns, and 1423 nonzeros.
+Reduced MIP has 6 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.79 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 6.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.45 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        20746.2366     9000.0000            56.62%
+      0     0    19143.1668     2    20746.2366    19143.1668       84    7.73%
+*     0+    0                        19742.3482    19143.1668             3.04%
+      0     0        cutoff          19742.3482                     93    0.00%
+Elapsed time = 0.01 sec. (4.51 ticks, tree = 0.01 MB, solutions = 2)
+
+Implied bound cuts applied:  1
+Flow cuts applied:  1
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (4.55 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (4.55 ticks)
+1 Optimal
+Best Value 19742.348 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P208630901 Vol Heur 81.478 Vol Total 24.552 Vol Cargado 25.038001
+Fijado:
+6
+No baja el volumen 6
+Veces 8 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307211700Fecha Fin 202307201700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               260
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 2 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 20525.3476.
+Tried aggregator 1 time.
+MIP Presolve eliminated 98 rows and 363 columns.
+MIP Presolve modified 14 coefficients.
+Reduced MIP has 139 rows, 525 columns, and 1584 nonzeros.
+Reduced MIP has 9 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.69 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 12 rows and 84 columns.
+Reduced MIP has 127 rows, 441 columns, and 1332 nonzeros.
+Reduced MIP has 9 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.74 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 13.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.33 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        20525.3476    10500.0000            48.84%
+      0     0    19143.1668     4    20525.3476    19143.1668       65    6.73%
+      0     0    20172.4681     9    20525.3476       Cuts: 4       73    1.72%
+
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (4.86 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (4.86 ticks)
+1 OptimalTol
+Best Value 20525.348 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 59
+Quedan Ahora 0 P202630901 Vol Heur 79.246 Vol Total 65.844 Vol Cargado 67.194002
+Fijado:
+7
+No baja el volumen 7
+Veces 9 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307201700Fecha Fin 202307181700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               259
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 21170.9873.
+Tried aggregator 1 time.
+MIP Presolve eliminated 114 rows and 411 columns.
+MIP Presolve added 8 rows and 0 columns.
+MIP Presolve modified 29 coefficients.
+Reduced MIP has 131 rows, 477 columns, and 1435 nonzeros.
+Reduced MIP has 8 binaries, 28 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.68 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 11 rows and 78 columns.
+Reduced MIP has 120 rows, 399 columns, and 1201 nonzeros.
+Reduced MIP has 8 binaries, 28 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.67 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 7.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.36 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        21170.9873    12000.0000            43.32%
+      0     0    20525.5880     1    21170.9873    20525.5880       67    3.05%
+      0     0        cutoff          21170.9873                     68    0.00%
+Elapsed time = 0.01 sec. (3.36 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.39 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.39 ticks)
+1 Optimal
+Best Value 21170.987 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 34
+Quedan Ahora 0 P201630901 Vol Heur 79.246 Vol Total 37.944 Vol Cargado 38.646002
+Fijado:
+8
+No baja el volumen 8
+Veces 10 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307181700Fecha Fin 202307141700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               258
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 21712.5911.
+Tried aggregator 1 time.
+MIP Presolve eliminated 127 rows and 468 columns.
+MIP Presolve modified 17 coefficients.
+Reduced MIP has 110 rows, 420 columns, and 1267 nonzeros.
+Reduced MIP has 9 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.61 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 10 rows and 69 columns.
+Reduced MIP has 100 rows, 351 columns, and 1060 nonzeros.
+Reduced MIP has 9 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.59 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 13.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.37 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        21712.5911    14060.0000            35.24%
+      0     0    21170.9873     1    21712.5911    21170.9873       83    2.49%
+      0     0        cutoff          21712.5911                     85    0.00%
+Elapsed time = 0.01 sec. (3.13 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.16 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.16 ticks)
+1 Optimal
+Best Value 21712.591 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 38
+Quedan Ahora 0 P199630901 Vol Heur 82.594 Vol Total 42.408 Vol Cargado 43.272002
+Fijado:
+9
+No baja el volumen 9
+Veces 11 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307141700Fecha Fin 202307131700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               257
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 22694.7495.
+Tried aggregator 1 time.
+MIP Presolve eliminated 142 rows and 534 columns.
+MIP Presolve modified 23 coefficients.
+Reduced MIP has 95 rows, 354 columns, and 1068 nonzeros.
+Reduced MIP has 12 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.60 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 8 rows and 51 columns.
+Reduced MIP has 87 rows, 303 columns, and 915 nonzeros.
+Reduced MIP has 12 binaries, 18 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.51 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 20.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.30 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        22694.7495    15560.0000            31.44%
+      0     0    21720.9265     1    22694.7495    21720.9265       67    4.29%
+      0     0        cutoff          22694.7495                     73    0.00%
+Elapsed time = 0.01 sec. (3.11 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.14 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (3.14 ticks)
+1 Optimal
+Best Value 22694.75 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 42
+Quedan Ahora 0 P195630901 Vol Heur 77.014 Vol Total 46.872 Vol Cargado 47.790002
+Fijado:
+10
+No baja el volumen 10
+Veces 12 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307131700Fecha Fin 202307111700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               256
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 22902.4768.
+Tried aggregator 1 time.
+MIP Presolve eliminated 158 rows and 609 columns.
+MIP Presolve modified 20 coefficients.
+Reduced MIP has 79 rows, 279 columns, and 842 nonzeros.
+Reduced MIP has 15 binaries, 15 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.58 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 7 rows and 45 columns.
+Reduced MIP has 72 rows, 234 columns, and 707 nonzeros.
+Reduced MIP has 15 binaries, 15 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.40 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 27.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.30 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        22902.4768    17060.0000            25.51%
+      0     0    22694.7495     1    22902.4768    22694.7495       55    0.91%
+      0     0        cutoff          22902.4768                     56    0.00%
+Elapsed time = 0.01 sec. (2.64 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (2.67 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (2.67 ticks)
+1 Optimal
+Best Value 22902.477 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901
+Z_11 202307131700 P194630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 22
+Quedan Ahora 0 P194630901 Vol Heur 80.362 Vol Total 24.552 Vol Cargado 25.092001
+Fijado:
+11
+No baja el volumen 11
+Veces 13 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307111700Fecha Fin 202307071700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               255
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 23370.3070.
+Tried aggregator 1 time.
+MIP Presolve eliminated 174 rows and 660 columns.
+MIP Presolve modified 17 coefficients.
+Reduced MIP has 63 rows, 228 columns, and 688 nonzeros.
+Reduced MIP has 9 binaries, 24 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.56 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 6 rows and 36 columns.
+Reduced MIP has 57 rows, 192 columns, and 580 nonzeros.
+Reduced MIP has 9 binaries, 24 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.33 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Clique table members: 13.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.24 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        23370.3070    18560.0000            20.58%
+      0     0    22902.4768     1    23370.3070    22902.4768       43    2.00%
+      0     0        cutoff          23370.3070                     46    0.00%
+Elapsed time = 0.00 sec. (2.39 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (2.41 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (2.41 ticks)
+1 Optimal
+Best Value 23370.307 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901
+Z_11 202307131700 P194630901
+Z_12 202307111700 P192630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 51
+Quedan Ahora 0 P192630901 Vol Heur 82.594 Vol Total 56.916 Vol Cargado 57.996002
+Fijado:
+12
+No baja el volumen 12
+Veces 14 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307071700Fecha Fin 202307061700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               254
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 24255.1305.
+Tried aggregator 1 time.
+MIP Presolve eliminated 191 rows and 744 columns.
+MIP Presolve modified 20 coefficients.
+Reduced MIP has 46 rows, 144 columns, and 435 nonzeros.
+Reduced MIP has 9 binaries, 21 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.54 ticks)
+Probing time = 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 4 rows and 18 columns.
+Reduced MIP has 42 rows, 126 columns, and 381 nonzeros.
+Reduced MIP has 9 binaries, 21 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.22 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 13.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.15 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        24255.1305    20060.0000            17.30%
+      0     0    23370.3070     1    24255.1305    23370.3070       30    3.65%
+      0     0        cutoff          24255.1305                     31    0.00%
+Elapsed time = 0.00 sec. (2.00 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (2.03 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (2.03 ticks)
+1 Optimal
+Best Value 24255.131 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901
+Z_11 202307131700 P194630901
+Z_12 202307111700 P192630901
+Z_13 202307071700 P188630901 Packing  Terminado Modelo Temporal
+Tama ventana1
+
+Entra en packing 
+Quedan 40
+Quedan Ahora 0 P188630901 Vol Heur 78.13 Vol Total 44.64 Vol Cargado 45.504002
+Fijado:
+13
+No baja el volumen 13
+Veces 15 Ventana temporal x: 1Ventana temporal z: 2 Total dias 16 NO Packing 0
+Fecha Inicio 202307061700Fecha Fin 202307031700
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 8
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               253
+CPXPARAM_MIP_Tolerances_MIPGap                   0.0050000000000000001
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 24560.0000.
+Tried aggregator 1 time.
+MIP Presolve eliminated 207 rows and 819 columns.
+MIP Presolve modified 62 coefficients.
+Reduced MIP has 30 rows, 69 columns, and 209 nonzeros.
+Reduced MIP has 6 binaries, 63 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.57 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 1 rows and 1 columns.
+Reduced MIP has 29 rows, 68 columns, and 205 nonzeros.
+Reduced MIP has 5 binaries, 63 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.12 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Clique table members: 4.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.06 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        24560.0000    23060.0000             6.11%
+      0     0        cutoff          24560.0000                      6    0.00%
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (1.60 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (1.60 ticks)
+1 Optimal
+Best Value 24560 Cota 15255.437
+Val Min 0.999Modelo:
+
+Z_0 202309011700 P244630901
+Z_1 202308311700 P243630901
+Z_2 202308291700 P241630901
+Z_3 202308251700 P237630901
+Z_4 202308241700 P236630901
+Z_5 202307281700 P209630901
+Z_6 202307271700 P208630901
+Z_7 202307211700 P202630901
+Z_8 202307201700 P201630901
+Z_9 202307181700 P199630901
+Z_10 202307141700 P195630901
+Z_11 202307131700 P194630901
+Z_12 202307111700 P192630901
+Z_13 202307071700 P188630901
+Z_14 202307061700 P187630901 Packing 
+Z_15 202307041700 P185630901 Packing  Terminado Modelo Temporal
+Tama ventana2
+
+Entra en packing 
+Quedan 73
+Quedan Ahora 49 P187630901 Vol Heur 75.898 Vol Total 26.784 Vol Cargado 27.324001
+Quedan Ahora 0 P185630901 Vol Heur 75.898 Vol Total 54.684 Vol Cargado 55.764002
+Fijado:
+14
+Es el ultimo
+15
+No quedan
+No baja el volumen 14
+Coste inventario Antes 112 
+Camion 1P244630901
+Camion 1P243630901
+Camion 1P241630901
+Camion 1P237630901
+Camion 1P236630901
+Camion 1P209630901
+Camion 1P208630901
+Camion 1P202630901
+Ha mejorado
+Camion 1P202630901Extras0Camion 2P201630901Extras20
+Camion 1P202630901Extras0Camion 2P201630901Extras20
+Camion 1P201630901
+Camion 1P199630901
+Camion 1P195630901
+Camion 1P194630901
+Camion 1P192630901
+Camion 1P188630901
+Camion 1P187630901
+Camion 1P185630901
+Coste inventario Después 112 
+Aqui7 2
+CT 0 CI  112 CT 24000
+Aqui8 2
+Aqui8 Compo 0 24560
+COMPONENTE:0 Iteracion:2Mejor Iter1
+GAP 3.1254499e-05 ObjBound 24559.232Coste 24560 112 24000 Op 1 CT 1 CI 5 BS_T 27560 BS_I 112 BS_T 27000
+
+Tiempo 3599 Componente 0
+COMPONENTE:1 Iteracion:2
+optimo
+
+Tiempo 1.596Iter 2
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ITERACION 3 CT 27000 CI 112 CT 27560
+COMPONENTE:0 Iteracion:3
+optimo
+COMPONENTE:1 Iteracion:3
+optimo
+
+Tiempo 1.596Iter 3
+
+Tiempo 1.596Iter 101
+
+java -Xmx4g -DLOG_FILENAME="logs/logchecker" -Dlogback.configurationFile=logback.xml -jar ./CheckerChallenge-1.10.0.jar instances_X_PA2_17.csv
+./instanciasX/PA2/;	27000;112;27560;101;1.596;1.598;0;1;1;5;0.2;;1;5;0;0;0;0;0;;2;5;0;0;0;0;0;;3;3;0;0;0;0;0;;4;3;0;0;0;0;0;;5;3;0;0;0;0;0;;6;3;0;0;0;0;0;;7;3;0;0;0;0;0;;8;3;1;0;0;0;0;;9;3;0;0;0;0;0;;10;3;0;0;0;0;0;;11;3;0;0;0;0;0;;12;3;0;0;0;0;0;;13;3;0;0;0;0;0;;14;3;0;0;0;0;0;;15;12;3;23753.483;67.938002;23989.967;79.246;
